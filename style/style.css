@@ -221,3 +221,51 @@
     margin-top: 24px;
 
 }
+
+.sub-title {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    padding-left: 900px;
+    color: #FFFFFF;
+}
+
+.input-mailbox {
+    position: absolute;
+    width: 325px;
+    height: 50px;
+    left: 900px;
+    top: 280px;
+
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: white;
+    padding-left: 20px;
+}
+
+input[type=email] {
+    color: white;
+}
+
+.submit-btn {
+    position: absolute;
+    width: 170.11px;
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    left: 900px;
+    top: 360px;
+}
