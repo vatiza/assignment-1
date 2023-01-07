@@ -1,0 +1,223 @@
+* {
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+
+/* Header Style */
+.banner img {
+    width: 100%;
+    height: 808px;
+}
+
+.header-text {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+    position: absolute;
+    line-height: 76px;
+    width: 525px;
+    height: 228px;
+    left: 720px;
+    top: 210px;
+}
+
+.header-pragraph {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    position: absolute;
+    text-align: right;
+    width: 494px;
+    height: 78px;
+    left: 750px;
+    top: 468px;
+
+}
+
+.contact-btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    background-color: white;
+    color: #005fac;
+    border-radius: 5px;
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1085px;
+    top: 578px;
+    margin-top: 32px;
+    border: none;
+
+
+}
+
+
+.head-title {
+
+    text-align: right;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    padding: 178px 320px 0px 740px;
+    margin-bottom: 24px;
+}
+
+.profile-pic {
+    position: absolute;
+    /* padding: 0px 78px 0px 0.5px; */
+    padding-left: 52px;
+    padding-bottom: 52px;
+}
+
+.failures-pragraph {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    padding: 0px 62px 0px 755px;
+    margin-bottom: 16px;
+}
+
+.todo-box {
+    margin-top: 1px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0px 62px 0px 755px;
+
+}
+
+/* myplan style */
+.my-plan h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.plans-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 83px;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+
+
+}
+
+.plans-container img {
+    width: 80px;
+}
+
+.plans-container h3 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
+    color: #151414;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+
+/* planning section end */
+.last-banner {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),
+        url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    margin: auto;
+
+}
+
+.banner-text h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 94px;
+    padding-top: 59px;
+    line-height: 76px;
+    width: 525px;
+    height: 228px;
+}
+
+.call-btn {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    left: 194px;
+    top: 2320.96px;
+    margin-top: 2px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+/* foooter section */
+.footer-section {
+    position: absolute;
+    width: 1345px;
+    height: 577px;
+    left: 0px;
+    top: 2641.96px;
+    background: #151414;
+    color: #F8F8F8;
+}
+
+.footer-title {
+
+    text-align: right;
+    padding-left: 26px;
+    padding-right: 780px;
+
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 230px;
+    padding-right: 620px;
+    margin-top: 16px;
+}
+
+.contact-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 230px;
+    margin-top: 24px;
+}
+
+.social-links {
+    display: flex;
+    gap: 18px;
+    text-decoration: none;
+    padding-left: 227px;
+    margin-top: 24px;
+
+}
